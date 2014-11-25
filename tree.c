@@ -10,6 +10,17 @@
 
 // Javier Izquierdo Vera
 
+/*
+El siguiente código sirve para mostrar los archivos con permiso de ejecución para grupo y otros, que hay en un árbol
+de directorios, mostrando el i-nodo de cada uno, y tomando como raiz el directorio actual o el especificado por un parámetro.
+
+Procesar(directorio, &total, &size);
+
+total -> Archivos contados
+size -> Tamaño en bytes del total
+
+*/
+
 // Directorios
 #include<sys/types.h>
 #include<dirent.h>
