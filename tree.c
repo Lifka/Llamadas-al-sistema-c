@@ -1,3 +1,10 @@
+/* 
+ *  Javier Izquierdo Vera
+ *  javieriv@correo.ugr.es
+ *  UGR
+ */
+
+
 #include<sys/types.h>	//Primitive system data types for abstraction of implementation-dependent data types. javieriv
 						//POSIX Standard: 2.6 Primitive System Data Types <sys/types.h>
 #include<unistd.h>		//POSIX Standard: 2.10 Symbolic Constants         <unistd.h>
@@ -7,8 +14,6 @@
 #include<errno.h>
 
 #include<stdlib.h>
-
-// Javier Izquierdo Vera
 
 /*
 El siguiente código sirve para mostrar los archivos con permiso de ejecución para grupo y otros, que hay en un árbol
